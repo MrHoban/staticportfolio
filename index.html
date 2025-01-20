@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio website of a Full Stack Developer showcasing projects, skills, and contact information.">
+        <title>Josh's Cabin</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/5b8d3b2767.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <!-- Header Section -->
+    <header id="home">
+        <nav>
+            <div class="logo">Hoban's Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Hi, I'm Joshua Hoban</h1>
+            <p>Intake Developer @ Emperion | Data Analyist | Full Stack Engineer</p>
+            <a href="#projects" class="cta">View My Work</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a student/part time Full Stack Developer / Data Analyist, as well as a Full Time Intake Coordinator. I have experience in building dynamic, responsive, and user-friendly websites. I specialize in technologies like JavaScript, React, Node.js, MongoDB, and MySQL. I also specialize in Python for Data Analytics, and have a CompTIA A+ Certificate for Full Support Engineering.</p>
+                <p>When I'm not coding, you can find me exploring new tech trends or working on open-source projects or going outside to the beach or playing games online.</p>
+            </div>
+            <div class="about-photo">
+                <img src="images/PortfolioPic.jpg" alt="Your Photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Data Analytics</h3>
+                <p>Projects Done For my Python Certfications.</p>
+                <a href="https://replit.com/@hobanjoshuaw/boilerplate-sea-level-predictor?v=1#main.py">Live Demo</a> | <a href="https://replit.com/@hobanjoshuaw">Replit Repo</a>
+            </div>
+            <div class="project">
+                <h3>Simple Static Website</h3>
+                <p>Simple HTML, CSS, and JavaScript</p>
+                <a href="#">Coming Soon</a> | <a href="#">GitHub Repo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li class="html5"><i class="fab fa-html5"></i> HTML</li>
+            <li class="css3"><i class="fab fa-css3-alt"></i> CSS</li>
+            <li class="javascript"><i class="fab fa-js"></i> JavaScript</li>
+            <li class="react"><i class="fab fa-react"></i> React</li>
+            <li class="nodejs"><i class="fab fa-node-js"></i> Node.js</li>
+            <li class="python"><i class="fab fa-python"></i> Python</li>
+            <li class="jupyter"><i class="fas fa-project-diagram"></i> Jupyter</li>
+            <li class="mysql"><i class="fas fa-database"></i> MySQL</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/xgvvgeop" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mr. Hoban. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
